@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/image/home-page/logo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/style/home-page.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/image/home-page/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/home-page.css">
     <title>E-gadget</title>
 </head>
 <body>
-    <div class="root">
+    <div class="root" id="root">
         <!-- HEADER -->
         <header class="header">
             <!-- INFO -->
@@ -1339,9 +1339,154 @@
                             </div>
                         </div>
                     </div>
+                    <div class="comments-wrapper">
+                        <div class="comment-content">
+                            <div class="comment-icon">
+                                <img src="./assets/image/home-page/quotes.svg" alt="quotes" />
+                            </div>
+                            <p class="comment-txt">My first order arrived today in perfect condition.  From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch.  Such great service.  I look forward to shopping on your site in the future and would highly recommend it.</p>
+                        </div>
+                        <div class="comment-author">
+                            <p class="author">- Tama Brown</p>
+                        </div>
+                        <div class="comment-action-row">
+                            <button class="comment-btn">Leave Us A Review</button>
+                            <div class="arrow-dots">
+                                <div class="arrow-dot active"></div>
+                                <div class="arrow-dot"></div>
+                                <div class="arrow-dot"></div>
+                                <div class="arrow-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offers-wrapper">
+                        <div class="offers">
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <img src="./assets/image/home-page/support.svg" alt="support" />
+                                </div>
+                                <h4 class="offer-title">Product Support</h4>
+                                <p class="offer-description">Up to 3 years on-site warranty available for your peace of mind.</p>
+                            </div>
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <img src="./assets/image/home-page/account.svg" alt="account" />
+                                </div>
+                                <h4 class="offer-title">Personal Account</h4>
+                                <p class="offer-description">With big discounts, free delivery and a dedicated support specialist.</p>
+                            </div>
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <img src="./assets/image/home-page/discount.svg" alt="discount" />
+                                </div>
+                                <h4 class="offer-title">Amazing Savings</h4>
+                                <p class="offer-description">Up to 70% off new Products, you can be sure of the best price.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-subscription">
+                    <div class="footer-title">
+                        <div class="footer-title-txt">Sign Up To Our Newsletter.</div>
+                        <div class="footer-title-description">Be the first to hear about the latest offers.</div>
+                    </div>
+                    <div class="footer-form">
+                        <form action="" method="post">
+                            <input type="text" name="email" id="email" placeholder="Your Email" class="email-input" />
+                            <button class="subscription-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-links-wrapper">
+                        <p class="footer-links-title">Information</p>
+                        <div class="footer-links">
+                            <p class="footer-link">About Us</p>
+                            <p class="footer-link">About Zip</p>
+                            <p class="footer-link">Privacy Policy</p>
+                            <p class="footer-link">Search</p>
+                            <p class="footer-link">Terms</p>
+                            <p class="footer-link">Orders and Returns</p>
+                            <p class="footer-link">Contact Us</p>
+                            <p class="footer-link">Advanced Search</p>
+                            <p class="footer-link">Newsletter Subscription</p>
+                        </div>
+                    </div>
+                    <div class="footer-links-wrapper">
+                        <p class="footer-links-title">PC Parts</p>
+                        <div class="footer-links">
+                            <p class="footer-link">CPUS</p>
+                            <p class="footer-link">Add On Cards</p>
+                            <p class="footer-link">Hard Drives (Internal)</p>
+                            <p class="footer-link">Graphic Cards</p>
+                            <p class="footer-link">Keyboards / Mice</p>
+                            <p class="footer-link">Cases / Power Supplies / Cooling</p>
+                            <p class="footer-link">RAM (Memory)</p>
+                            <p class="footer-link">Software</p>
+                            <p class="footer-link">Speakers / Headsets</p>
+                            <p class="footer-link">Motherboards</p>
+                        </div>
+                    </div>
+                    <div class="footer-links-wrapper">
+                        <p class="footer-links-title">Desktop PCs</p>
+                        <div class="footer-links">
+                            <p class="footer-link">Custom PCs</p>
+                            <p class="footer-link">Servers</p>
+                            <p class="footer-link">MSI All-In-One PCs</p>
+                            <p class="footer-link">HP/Compaq PCs</p>
+                            <p class="footer-link">ASUS PCs</p>
+                            <p class="footer-link">Tecs PCs</p>
+                        </div>
+                    </div>
+                    <div class="footer-links-wrapper">
+                        <p class="footer-links-title">Laptops</p>
+                        <div class="footer-links">
+                            <p class="footer-link">Evryday Use Notebooks</p>
+                            <p class="footer-link">MSI Workstation Series</p>
+                            <p class="footer-link">MSI Prestige Series</p>
+                            <p class="footer-link">Tablets and Pads</p>
+                            <p class="footer-link">Netbooks</p>
+                            <p class="footer-link">Infinity Gaming Notebooks</p>
+                        </div>
+                    </div>
+                    <div class="footer-links-wrapper">
+                        <p class="footer-links-title">Address</p>
+                        <div class="footer-links">
+                            <p class="footer-link">Address: 1234 Street Adress City Address, 1234</p>
+                            <p class="footer-link">Phones: <a href="#" class="phone-number">(00) 1234 5678</a></p>
+                            <p class="footer-link">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</p>
+                            <p class="footer-link">Friday: 9:00 AM - 6:00 PM</p>
+                            <p class="footer-link">Saturday: 11:00 AM - 5:00 PM</p>
+                            <p class="footer-link">E-mail: <a href="#" class="email-address">shop@email.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-networks">
+                    <div class="social-networks">
+                        <a href="#">
+                            <img src="./assets/image/home-page/facebook-icon.svg" alt="facebook-icon" />
+                        </a>
+                        <a href="#">
+                            <img src="./assets/image/home-page/instagram-icon.svg" alt="instagram-icon" />
+                        </a>
+                    </div>
+                    <div class="payment-methods">
+                        <img src="./assets/image/home-page/paypal.svg" alt="paypal" />
+                        <img src="./assets/image/home-page/visa.svg" alt="visa" />
+                        <img src="./assets/image/home-page/maestro.svg" alt="maestro" />
+                        <img src="./assets/image/home-page/discover.svg" alt="discover" />
+                        <img src="./assets/image/home-page/american-express.svg" alt="american-express" />
+                    </div>
+                    <p class="copyright">Copyright © 2020 Shop Pty. Ltd.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
